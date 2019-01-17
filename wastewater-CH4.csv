@@ -1,0 +1,9 @@
+Plant,"Total Digester gas production rate
+(cf/hour)",measured fraction of CH4 in bio,"Total CH4 from digester gas (in mTCO2e)
+Equation 10.1","Process CH4 from Anaerobic/Facultative WWT
+Equation 10.3",Bo,"Fugitive CH4 from Septic
+Equation 10.5"
+Utoy Creek*,4500,0.65,10087.674408629999,0,0.6,0
+RM Clayton,42000,0.65,94151.627813879983,0,0.6,0
+Intrenchment Creek,NA,0.65,0,0,1.6,0
+South River*,450,0.65,1008.7674408629998,0,0.6,0

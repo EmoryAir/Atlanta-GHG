@@ -1,0 +1,4 @@
+Area,2015 Annual Consumption (Therms),Emission Factor      (mTCO2/ Therm)*,Total emissions 2015 (mTCO2e/y)* = Gas consumption (Therms/y) x Emission Factor (mTCO2e/Therm)
+Residential,66543745.987100221,5.3020000000000003E-3,352814.94122360542
+Commercial,38095172.172104977,5.3020000000000003E-3,201980.6028565006
+Industrial,51595818.452736393,5.3020000000000003E-3,273561.02943640837

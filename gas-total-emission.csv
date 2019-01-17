@@ -1,0 +1,4 @@
+Area,2015 Annual Consumption (Therms),Emission Factor      (mTCO2/ Therm)*,Total emissions 2015 (mTCO2e/y)* = Gas consumption (Therms/y) x Emission Factor (mTCO2e/Therm)
+Natural Gas (no airport),156234736.61194158,5.3020000000000003E-3,828356.57351651427
+Natural Gas MARTA,8960000,5.3020000000000003E-3,47505.920000000006
+Natural Gas (airport),29580,5.3020000000000003E-3,156.83316000000002

@@ -1,0 +1,54 @@
+GPC ref No.,Scope,Scope GHG Emissions Source 2015,Notation keys,CO2,CH4,N2O,HFC,PFC,SF6,NF3,CO2e,CO2(b),AD,EF,Explanation,Category,Subcategory
+I.1.1,1,Emissions from in-boundary fuel combustion,NA,352814.94122360542,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Stationary Energy Sources,Residential Buildings
+I.1.2,2,Emissions from consumption of grid-supplied energy,NA,1131378.1906192377,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Stationary Energy Sources,Residential Buildings
+I.1.3,3,Transmission and distribution losses from grid-supplied energy,NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not required for BASIC reporting,Stationary Energy Sources,Residential Buildings
+I.2.1,1,Emissions from in-boundary fuel combustion,NA,201980.6028565006,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Stationary Energy Sources,Commercial and institutional buildings/facilities
+I.2.2,2,Emissions from consumption of grid-supplied energy,NA,2932825.2127486537,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Stationary Energy Sources,Commercial and institutional buildings/facilities
+I.2.3,3,Transmission and distribution losses from grid-supplied energy,NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not required for BASIC reporting,Stationary Energy Sources,Commercial and institutional buildings/facilities
+I.3.1,1,Emissions from in-boundary fuel combustion,NA,273561.02943640837,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Stationary Energy Sources,Manufacturing industry
+I.3.2,2,Emissions from consumption of grid-supplied energy,NA,227538.95842881282,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Stationary Energy Sources,Manufacturing industry
+I.3.3,3,Transmission and distribution losses from grid-supplied energy,NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not required for BASIC reporting,Stationary Energy Sources,Manufacturing industry
+I.4.1,1,Emissions from in-boundary production of energy used in auxiliary operations,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Energy industries
+I.4.2,2,Emissions from consumption of grid-supplied energy,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Energy industries
+I.4.3,3,Transmission and distribution losses from grid-supplied energy,NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not required for BASIC reporting,Stationary Energy Sources,Energy industries
+I.4.4,1,Emissions from in-boundary production of grid-supplied energy,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Energy industries
+I.5.1,1,Emissions from in-boundary fuel combustion,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,"Agriculture, Forestry, and fishing activites"
+I.5.2,2,Emissions from consumption of grid-supplied energy,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,"Agriculture, Forestry, and fishing activites"
+I.5.3,3,Transmission and distribution losses from grid-supplied energy,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,"Agriculture, Forestry, and fishing activites"
+I.6.1,1,Emissions from in-boundary fuel combustion,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Non-specified sources
+I.6.2,2,Emissions from consumption of grid-supplied energy,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Non-specified sources
+I.6.3,3,Transmission and distribution losses from grid-supplied energy,NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not required for BASIC reporting,Stationary Energy Sources,Non-specified sources
+I.7.1,1,In-boundary fugitive emissions,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,"Fugitive emissions from mining, processing, storage, and transportation of coal"
+I.8.1,1,In-boundary fugitive emissions,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Fugitive emissions from oil and natural gas systems
+II.1.1,1,Emissions from in-boundary transport,NA,2651827.4005790516,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,On-road transportation + MARTA commuting buses,Stationary Energy Sources,On-road transportation
+II.1.2,2,Emissions from consumption of grid-supplied energy,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,On-road transportation
+II.1.3,3,Emissions from transboundary journeys,NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not required for BASIC reporting,Stationary Energy Sources,On-road transportation
+II.2.1,1,Emissions from in-boundary transport,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Stationary Energy Sources,Railways
+II.2.2,2,Emissions from consumption of grid-supplied energy,NA,98558.553470017243,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,MARTA railways,Stationary Energy Sources,Railways
+II.2.3,3,Emissions from transboundary journeys,NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not required for BASIC reporting,Stationary Energy Sources,Railways
+II.3.1,1,Emissions from in-boundary transport,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Water-borne navigation
+II.3.2,2,Emissions from consumption of grid-supplied energy,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Water-borne navigation
+II.3.3,3,Emissions from transboundary journeys,NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not required for BASIC reporting,Stationary Energy Sources,Water-borne navigation
+II.4.1,1,Emissions from in-boundary transport,NA,4312.8838540000006,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Airport use of vehicles fleet, emergency/no emergency generators",Stationary Energy Sources,Aviation
+II.4.2,2,Emissions from consumption of grid-supplied energy,NA,156309.42008981222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Airport use of electricity,Stationary Energy Sources,Aviation
+II.4.3,3,Emissions from transboundary journeys,NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not required for BASIC reporting,Stationary Energy Sources,Aviation
+II.5.1,1,Emissions from in-boundary transport,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Off-road
+II.5.2,2,Emissions from consumption of grid-supplied energy,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Off-road
+III.1.1,1,Emissions from waste generated and treated within the city,NA,NA,12209.82,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Stationary Energy Sources,Solid waste diposal
+III.1.2,2,Emissions from waste generated within but treated outside of the city,NA,NA,283650.52315320011,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Stationary Energy Sources,Solid waste diposal
+III.1.3,1,Emissions from waste generated outside the city boundary but treated within the city,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Solid waste diposal
+III.2.1,1,Emissions from waste generated and treated within the city,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Biological treatment of waste
+III.2.2,3,Emissions from waste generated within but treated outside of the city,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Biological treatment of waste
+III.2.3,1,Emissions from waste generated outside the city boundary but treated within the city,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Biological treatment of waste
+III.3.1,1,Emissions from waste generated and treated within the city,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Incineration adn open burning
+III.3.2,3,Emissions from waste generated within but treated outside of the city,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Incineration adn open burning
+III.3.3,1,Emissions from waste generated outside the city boundary but treated within the city,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Incineration adn open burning
+III.4.1,1,Emissions from wastewater generated and treated within the city,NA,NA,5011.8128411129992,35.289199968582594,NA,NA,NA,NA,NA,NA,NA,NA,NA,Stationary Energy Sources,Wastewater treatment and discharge
+III.4.2,3,Emissions from wastewater generated within but treated outside of the city,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Wastewater treatment and discharge
+III.4.3,1,Emissions from wastewater generated outside the city boundary but treated within the city,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,Wastewater treatment and discharge
+IV.1,1,In-boundary emissions from industrial processes,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,IPPU (Industrial processes and product use)
+IV.2,2,In-boundary emissions from product use,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,Stationary Energy Sources,IPPU (Industrial processes and product use)
+V.1,1,In-boundary emissions from livestock,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,"Agriculture, Forestry and Land Use (AFOLU)","Agriculture, Forestry and Land Use (AFOLU)"
+V.1,1,In-boundary emissions from land,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,"Agriculture, Forestry and Land Use (AFOLU)","Agriculture, Forestry and Land Use (AFOLU)"
+V.1,1,In-boundary emissions from other agriculture,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,"Agriculture, Forestry and Land Use (AFOLU)","Agriculture, Forestry and Land Use (AFOLU)"
+VI.1,3,Other indirect emissions,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Activity or process does not occur or exist within the city,"Agriculture, Forestry and Land Use (AFOLU)","Agriculture, Forestry and Land Use (AFOLU)"
