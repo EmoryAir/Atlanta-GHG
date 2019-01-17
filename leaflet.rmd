@@ -1,0 +1,81 @@
+devtools::install_github("tidyverse/ggplot2")
+devtools::install_github('walkerke/tigris')
+library(tidyverse)
+library(knitr)
+library(lubridate)
+library(readxl)
+library(plotly)
+library(ggmap)
+library(maps)
+library(zipcode)
+library(rgdal)
+library(rgeos)
+library(sf)
+library(tigris)
+library(leaflet)
+library(tmap)
+library(htmlwidgets)
+library(gdata)
+
+
+#data prep
+TotEmiss <- read_csv("total-emissions-by-zip.csv")
+ZIPdata <- read_csv("ZIPdata.csv")
+ZIPdata$zip<-as.character(ZIPdata$zip)
+ZIPdata <- left_join(ZIPdata, zips)
+
+TotEmiss$zip <- clean.zipcodes(TotEmiss$zip)
+zips <- merge(TotEmiss, zipcode, by='zip')
+
+zipdata <- readOGR("/Users/sdistler/Desktop/Lab/cb_2015_us_zcta510_500k")
+zippoly <- subset(zipdata, ZCTA5CE10 %in% ElecEmiss$zip)
+options(tigris_class = "sp")
+options(tigris_use_cache = TRUE)
+zctas30 <- zctas(cb = FALSE, starts_with = "30", year = 2015)
+uas <- urban_areas()
+atl_ua <- uas[grep("Atlanta, GA", uas$NAME10), ]
+atl_zcta <- zctas30[as.vector(gIntersects(zctas30, atl_ua, byid = TRUE)), ]
+
+ZIPdata2 <- ZIPdata %>%
+  mutate(mh.income = as.numeric(mh.income)) %>% 
+  filter(!is.na(mh.income),
+         zip != 30363)
+
+atl <- geo_join(atl_zcta, ZIPdata2, 'zip', 'zip', how="inner")
+pal <- colorNumeric(
+  palette = "Blues",
+  domain = atl$total.emissions)
+pal2 <- colorFactor(
+  palette = "Greens",
+  domain = atl$mh.income)
+pal2.2 <- colorNumeric(
+  palette = "Greens",
+  domain = atl$city.pop)
+ZIPdata2$mhradius <- (findInterval(ZIPdata2$mh.income,c(50000,100000,200000)) +1 ) * 7 
+
+
+#map
+leaflet(atl) %>%  
+  addProviderTiles(providers$CartoDB.Positron, options = tileOptions(minZoom=9, maxZoom=17)) %>% 
+  addPolygons(stroke = TRUE, weight = 1, 
+              fillOpacity = 0.9, fillColor = ~pal(total.emissions), 
+              label = ~ paste("Total Emissions:", round((total.emissions/10^6), 2), "MMT CO2"),
+              group = "Total Emissions") %>%
+  addPolygons(stroke = TRUE, weight = 1, 
+              fillOpacity = 0.8, fillColor = ~pal2.2(city.pop),
+              label = ~paste("In-city Population:", round(city.pop)),
+              group = "In-city Population") %>% 
+  addCircleMarkers(data = ZIPdata2, stroke = FALSE, 
+                   lng = ~longitude, lat = ~latitude, 
+                   fillColor = "black", fillOpacity = 0.5,
+                   radius = ~ mhradius,
+                   label = ~ paste("Median Household Income:", 
+                                   paste0("$", scales::comma(mh.income))),
+                   group = "Median Household Income") %>% 
+
+  addLayersControl(
+    baseGroups = c("Total Emissions (default)", 
+                   "In-city Population"),
+    overlayGroups = c("Median Household Income"),
+    options = layersControlOptions(collapsed = FALSE)
+  )
